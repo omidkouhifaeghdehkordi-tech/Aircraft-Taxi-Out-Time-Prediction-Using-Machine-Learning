@@ -1,0 +1,29 @@
+{
+  "evaluation": "forward-chaining cross-validation",
+  "rows_used": 476,
+  "rows_removed_by_quality_filter": 1,
+  "date_start_utc": "2026-04-10T22:03:58+00:00",
+  "date_end_utc": "2026-05-09T04:05:27+00:00",
+  "folds": 5,
+  "features": [
+    "is_weekend",
+    "time_sin",
+    "time_cos",
+    "dow_sin",
+    "dow_cos",
+    "flight_prefix",
+    "aircraft_family",
+    "aircraft_size",
+    "wind_speed_kt",
+    "wind_dir_sin",
+    "wind_dir_cos"
+  ],
+  "selected_model": "Random Forest",
+  "cv_mae_mean_min": 2.335979996608708,
+  "cv_mae_std_min": 0.4024411842718687,
+  "cv_rmse_mean_min": 3.1603971288671806,
+  "cv_rmse_std_min": 0.624362595431798,
+  "cv_r2_mean": 0.1867771685647933,
+  "cv_r2_std": 0.16357424625425532,
+  "note": "No untouched final test claim is made after the reproducibility audit."
+}
